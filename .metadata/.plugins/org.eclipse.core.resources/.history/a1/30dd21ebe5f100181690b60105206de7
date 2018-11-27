@@ -1,0 +1,7 @@
+package com.java.learning.array;
+
+public class Manager4 {
+		public static void main(String args[]) {
+			String str1[]= {"abc","Abc","ABC","aBc","abC","123","345"}
+		}
+}

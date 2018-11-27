@@ -1,0 +1,14 @@
+package com.java.learning.array;
+
+public class Manager6 {
+	public static void mian(String args[]) {
+		class A implements Comparable {
+
+			public int compareTo(Object o) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package com.java.learning.array;
+
+/**
+ * Hello world!
+ *
+ */
+public class Manager 
+{
+    public static void main( String[] args )
+    {
+       int z[][]= {{1,2},{2,3},{23,45}};
+       System.out.println(z);
+    }
+}

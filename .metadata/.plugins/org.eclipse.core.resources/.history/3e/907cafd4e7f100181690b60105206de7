@@ -1,0 +1,27 @@
+package com.java.learning.array;
+
+import java.util.Arrays;
+
+public class Manager6 {
+	public static void mian(String args[]) {
+		class A implements Comparable {
+			 int i;
+			 public A(int i) {
+				 this.i=i;
+			}
+
+			public int compareTo(Object o) {
+				A a=(A)o;
+				return this.i=a.i;
+			}			
+		}
+		
+		A all[]= new A[4];
+		all[0]=new A(20);
+		all[1]=new A(30);
+		all[2]=new A(50);
+		all[3]=new A(10);
+		all[4]=new A(70);
+		Arrays.sort(all);
+	}
+}
